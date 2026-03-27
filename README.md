@@ -94,6 +94,34 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 - From the Osticket installation folder, extract osticket
   - copy the upload folder into "C:\inetpub\wwwroot" then rename the upload folder to "osTicket"
 - Restart IIS Again
-- 
+- From IIS go to sites → Default → osTicket
+  - Click "Browse *.80' on the right (notice some extensions are not enabled)
+- Go back to IIS, sites → Default → osTicket
+  - Open PHP Manager
+  - Click "Enable or disable and extension"
+    - Enable: php_imap.dll
+    - Enable: php_intl.dll
+    - Enable: php_opcache.dll
+- Refresh the osTicket site in your browser, observe the changes
+- Rename: ost-sampleconfig.php → ost-config.php
+  -From: C:\inetpub\wwwroot\osTicket\include\ost-sampleconfig.php 
+- right click that folder and select properties
+  - Disable inheritance → Remove All
+  - New Permissions → Everyone → All
+- Continue setting up osTicket in the browser by clicking continue
+  - Name Helpdesk
+  - Default email (this email recieves email from customers)
+- From the osTicket Installation folder Install HeidiSQL
+  - Open Heidi SQL
+  - Create a new session, root/root
+  - Connect to the session
+  - Create a database called “osTicket”
+- Go back to the osTicket browser and continue setup
+  - MySQL Database: osTicket\
+  - MySQL username and password "root"
+  - Click install now
+<h1>CONGRAGULATIONS</h1>
+<h2>I Hope you enjoyed my guide to intalling osTicket</h2>
+
 </p>
 <br />
