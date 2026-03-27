@@ -24,6 +24,14 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 - Basic Computer navigation skills
 - Access to remote desktop
 
+<h2>Skills Demonstrated</h2>
+
+- Virtual machine deployment (Azure)
+- Remote system access(RDP)
+- Web server setup (IIS)
+- Database integration (MySQL)
+- Help desk system installation
+
 <h2>Installation Steps</h2>
 
 <p>
