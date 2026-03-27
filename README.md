@@ -49,7 +49,8 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img width="1382" height="895" alt="image" src="https://github.com/user-attachments/assets/1669ab64-f8a3-4398-89be-8ad4bea0ed70" />
+
 </p>
 <p>
 <h2>2. Connect Using Windows Remote Desktop</h2>
@@ -63,7 +64,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+"/>
 </p>
 <p>
 <h2>3. Install osticket, IIS, and Dependecies</h2>
