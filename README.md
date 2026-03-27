@@ -3,7 +3,7 @@
 </p>
 
 <h1>osTicket - Prerequisites and Installation</h1>
-This tutorial outlines the prerequisites and installation of the open-source help desk ticketing system osTicket.<br />
+This tutorial outlines the prerequisites and installation of the open-source help desk ticketing system osTicket within a Microsoft Azure virtual machine. The goal is to simulate a real-world IT support enviroment by preparing the system for ticket management adn troubleshooting workflows. <br />
 
 
 <h2>Environments and Technologies Used</h2>
