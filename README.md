@@ -88,8 +88,9 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 <h2>Installing dependencies</h2> 
 
--PICTURE
-<h3>Installing PHP manager</h3>
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/834d2622-3dbe-4907-8791-52230531331a" />
+
+<h3>Installing PHP manager and rewrite</h3>
 
 - Go to the osticket installation folder and download PHP manager
 - In the same folder install the rewrite module
