@@ -146,24 +146,31 @@ This tutorial outlines the prerequisites and installation of the open-source hel
     - Enable: php_imap.dll
     - Enable: php_intl.dll
     - Enable: php_opcache.dll
-    
--PICTURE
 - Refresh the osTicket site in your browser, observe the changes
+
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/44b4e814-0604-4f19-997f-fcc6a1709323" />
+
 - Rename: ost-sampleconfig.php → ost-config.php
   -From: C:\inetpub\wwwroot\osTicket\include\ost-sampleconfig.php 
 - right click that folder and select properties
+  -Security → Advanced
   - Disable inheritance → Remove All
-  - New Permissions → Everyone → All
+  - New Permissions → Everyone → All (for principal you search for Everyone) then give all permissions then click apply
 - Continue setting up osTicket in the browser by clicking continue
   - Name Helpdesk
   - Default email (this email recieves email from customers)
+  - admin user info (email must be different from default system email)
 
--Picture
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/657831e3-fd90-468d-966d-377897735489" />
+
 - From the osTicket Installation folder Install HeidiSQL
   - Open Heidi SQL
-  - Create a new session, root/root
+
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/9d6f2ae3-48ae-4153-ab4f-7f40cfc9653b" />
+
+  - Create a new session, username and password "root"
   - Connect to the session
-  - Create a database called “osTicket”
+  - right click top left → Create new → Create a database called “osTicket”
 
 -Picture
 - Go back to the osTicket browser and continue setup
