@@ -32,6 +32,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 </p>
 <p>
 <h2></h2>1.Create a Virtual Machine (Azure)</h2>
+
   -Log into Microsoft Azure Portal
   -Navigate to Virtual Machines → Create
   -Configure:
