@@ -37,6 +37,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <p>
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/ab304cd8-3b06-4b70-91be-6b894b8b1bac" />
 
+For this part we will use Microsoft Azure to create a virtual machine to use for the osticket installation.
 </p>
 <p>
 <h2>1.Create a Virtual Machine (Azure) </h2>
@@ -58,7 +59,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 <p>
 <img width="1382" height="895" alt="image" src="https://github.com/user-attachments/assets/1669ab64-f8a3-4398-89be-8ad4bea0ed70" />
-
+This image shows the use of remote desktop connection to connection to the Azure Virtual Machine.
 </p>
 <p>
 <h2>2. Connect Using Windows Remote Desktop</h2>
@@ -81,7 +82,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <p>
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/9aec9283-8cc1-43b3-8d47-981a857c739b" />
 </p>
-
+This image shows the installing and enabling of IIS to host the osticker.
 
 <h3>4. Installing and enabling Internet Information Services (IIS) to host the osTicket</h3>
 
