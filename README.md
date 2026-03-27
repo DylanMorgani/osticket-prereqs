@@ -83,7 +83,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 </p>
 
 
-<h3>Installing and enabling Internet Information Services (IIS) to host the osTicket</h3>
+<h3>4. Installing and enabling Internet Information Services (IIS) to host the osTicket</h3>
 
 - Install/Enable IIS in windows with CGI
   - go to windows settings Control Panel
@@ -98,7 +98,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/834d2622-3dbe-4907-8791-52230531331a" />
 
-<h3>Installing PHP manager and rewrite</h3>
+<h3>5. Installing PHP manager and rewrite</h3>
 
 - Go to the osticket installation folder and download PHP manager
 - In the same folder install the rewrite module
@@ -107,13 +107,13 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/2b067f6b-64f3-40bc-852e-cf2fae547381" />
 
-<h3>Installing VC_redist</h3>
+<h3>6. Installing VC_redist</h3>
 
 - From the osticket folder, download the VC_redist exe
 
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/47449723-083d-4b69-be2c-aac4759c65da" />
 
-<h3>Installing MySQL</h3>
+<h3>7. Installing MySQL</h3>
 - From the osticket folder, Install MySQL
   - Typical Setup
 
@@ -126,7 +126,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/689a9e38-6be7-4397-bcec-793bec9e973a" />
 
-<h3>IIS configurating PHP</h3>
+<h3>8. IIS configurating PHP</h3>
 
 - search for IIS in the windows search and run as admin
   - from within IIS open PSP manager
@@ -135,7 +135,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/4c36ea8a-46c6-4766-ba00-42ed957fa104" />
 
-<h2>Downloading osTicket</h2>
+<h2>9. Installing osTicket</h2>
 
 - From the Osticket installation folder, extract osticket
   - copy the upload folder into "C:\inetpub\wwwroot" then rename the upload folder to "osTicket"
