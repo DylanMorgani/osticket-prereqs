@@ -33,18 +33,18 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <p>
 <h2>1.Create a Virtual Machine (Azure) </h2>
 
--Log into Microsoft Azure Portal
--Navigate to Virtual Machines → Create
--Configure:
-  -Select you're Subscription
-  -Resource Group
-  -VM Name
-  -Region:Choose Your Region (make sure its the same for everything)
-  -Image:windows10 or higher
-  -Size:Any size will work (Preferably one with 2vcpus and 8gigs of RAM)
--Set username and password
--Confirm the licensing 
--Create the VM and Wait for deployment
+- Log into Microsoft Azure Portal
+- Navigate to Virtual Machines → Create
+- Configure:
+  - Select you're Subscription
+  - Resource Group
+  - VM Name
+  - Region:Choose Your Region (make sure its the same for everything)
+  - Image:windows10 or higher
+  - Size:Any size will work (Preferably one with 2vcpus and 8gigs of RAM)
+  - Set username and password
+- Confirm the licensing 
+- Create the VM and Wait for deployment
 </p>
 <br />
 
