@@ -43,6 +43,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
   - Image:windows10 or higher
   - Size:Any size will work (Preferably one with 2vcpus and 8gigs of RAM)
   - Set username and password
+  - Enable RDP (3389)
 - Confirm the licensing 
 - Create the VM and Wait for deployment
 </p>
