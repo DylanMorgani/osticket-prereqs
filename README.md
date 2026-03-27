@@ -69,14 +69,17 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <h2>3. Install osticket, IIS, and Dependecies</h2>
 
 - install this folder in the virtual machine using this link (https://drive.google.com/uc?export=download&id=1b3RBkXTLNGXbibeMuAynkfzdBC1NnqaD)  this is a folder containing all dependecies and osticket
+<h3>Installing IIS</h3>
+
 - Install/Enable IIS in windows with CGI
-  - go to windows settings
-  - go to programs
-  - select turn windows features on or off
+  - go to windows settings Control Panel
+  - go to programs → Programs and features
+  - select "turn windows features on or off"
   - turn on Internet Information Services (IIS)
   - expand IIS → expand World Wide Web Services → expand Application development features → enable CGI
   - click ok and wait for installation to complete
 - go to web browser and search for (127.0.0.1) to make sure its working
+<h3>Installing dependencies</h3>
 - Go to the osticket folder and download PHP manager
 - In the same folder install the rewrite module
 - Create the directory C:\PHP
