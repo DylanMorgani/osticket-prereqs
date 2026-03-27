@@ -178,6 +178,9 @@ This tutorial outlines the prerequisites and installation of the open-source hel
   - MySQL Database: osTicket
   - MySQL username and password "root"
   - Click install now
+
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/7c96cb3a-a498-4bb1-b750-c2b7ff62f278" />
+
 <h1>CONGRAGULATIONS</h1>
 <h2>I Hope you enjoyed my guide to intalling osTicket</h2>
 
