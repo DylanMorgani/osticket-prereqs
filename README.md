@@ -182,6 +182,8 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/7c96cb3a-a498-4bb1-b750-c2b7ff62f278" />
 
 <h1>CONGRAGULATIONS</h1>
+
+This project successfully demonstrates the initial setup required to deploy a help desk ticketing system. The enviroment is now ready for further configuration, including user roles, departments, and ticket lifecycle management.
 <h2>I Hope you enjoyed my guide to intalling osTicket</h2>
 - On the bottom of the page you will see the url's for your osTicket!
 </p>
