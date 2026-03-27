@@ -97,17 +97,23 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 - Create the directory C:\PHP
 - From the osticket folder Unzip the Php zip into C:\PHP
 
--PICTURE
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/2b067f6b-64f3-40bc-852e-cf2fae547381" />
+
 <h3>Installing VC_redist</h3>
 
 - From the osticket folder, download the VC_redist exe
 
--PICTURE
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/47449723-083d-4b69-be2c-aac4759c65da" />
+
 <h3>Installing MySQL</h3>
 - From the osticket folder, Install MySQL
   - Typical Setup
-  - Lauch configuration Wizard (after install)
+
+  <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/8b961faf-1fba-40f0-8b8d-afcce9a460ef" />
+
+- Lauch configuration Wizard (after install)
   - Standard Configuration
+  - click next
   - For the username and password :root
 
 -PICTURE
