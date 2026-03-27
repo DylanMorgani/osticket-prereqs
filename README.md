@@ -116,23 +116,31 @@ This tutorial outlines the prerequisites and installation of the open-source hel
   - click next
   - For the username and password :root
 
--PICTURE
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/689a9e38-6be7-4397-bcec-793bec9e973a" />
+
 <h3>IIS configurating PHP</h3>
 
 - search for IIS in the windows search and run as admin
   - from within IIS open PSP manager
   - register new PHP version (browse to C:\PHP  and select the application)
-  - Reload IIS by stoping and restarting the server
+  - Reload IIS by stoping and restarting the server (right click the local host top left)
 
--PICTURE
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/4c36ea8a-46c6-4766-ba00-42ed957fa104" />
+
 <h2>Downloading osTicket</h2>
 
 - From the Osticket installation folder, extract osticket
   - copy the upload folder into "C:\inetpub\wwwroot" then rename the upload folder to "osTicket"
 - Restart IIS Again
+
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/4153d856-45ac-42f3-89fe-80800f4cbd7f" />
+
 - From IIS go to sites → Default → osTicket
   - Click "Browse *.80' on the right (notice some extensions are not enabled)
 - Go back to IIS, sites → Default → osTicket
+
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/fd025e7f-7b89-443a-89cd-841bdf8118f1" />
+
   - Open PHP Manager
   - Click "Enable or disable and extension"
     - Enable: php_imap.dll
