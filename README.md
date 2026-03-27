@@ -85,21 +85,40 @@ This tutorial outlines the prerequisites and installation of the open-source hel
   - expand IIS → expand World Wide Web Services → expand Application development features → enable CGI
   - click ok and wait for installation to complete
 - go to web browser and search for (127.0.0.1) to make sure its working
-<h3>Installing dependencies</h3>
-- Go to the osticket folder and download PHP manager
+
+<h2>Installing dependencies</h2> 
+
+-PICTURE
+<h3>Installing PHP manager</h3>
+
+- Go to the osticket installation folder and download PHP manager
 - In the same folder install the rewrite module
 - Create the directory C:\PHP
 - From the osticket folder Unzip the Php zip into C:\PHP
+
+-PICTURE
+<h3>Installing VC_redist</h3>
+
 - From the osticket folder, download the VC_redist exe
+
+-PICTURE
+<h3>Installing MySQL</h3>
 - From the osticket folder, Install MySQL
   - Typical Setup
   - Lauch configuration Wizard (after install)
   - Standard Configuration
   - For the username and password :root
+
+-PICTURE
+<h3>IIS configurating PHP</h3>
+
 - search for IIS in the windows search and run as admin
   - from within IIS open PSP manager
   - register new PHP version (browse to C:\PHP  and select the application)
   - Reload IIS by stoping and restarting the server
+
+-PICTURE
+<h2>Downloading osTicket</h2>
 - From the Osticket installation folder, extract osticket
   - copy the upload folder into "C:\inetpub\wwwroot" then rename the upload folder to "osTicket"
 - Restart IIS Again
@@ -111,6 +130,8 @@ This tutorial outlines the prerequisites and installation of the open-source hel
     - Enable: php_imap.dll
     - Enable: php_intl.dll
     - Enable: php_opcache.dll
+    
+-PICTURE
 - Refresh the osTicket site in your browser, observe the changes
 - Rename: ost-sampleconfig.php → ost-config.php
   -From: C:\inetpub\wwwroot\osTicket\include\ost-sampleconfig.php 
@@ -120,11 +141,15 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 - Continue setting up osTicket in the browser by clicking continue
   - Name Helpdesk
   - Default email (this email recieves email from customers)
+
+-Picture
 - From the osTicket Installation folder Install HeidiSQL
   - Open Heidi SQL
   - Create a new session, root/root
   - Connect to the session
   - Create a database called “osTicket”
+
+-Picture
 - Go back to the osTicket browser and continue setup
   - MySQL Database: osTicket\
   - MySQL username and password "root"
