@@ -98,7 +98,7 @@ This image shows the installing and enabling of IIS to host the osticker.
 <h2>Installing dependencies</h2> 
 
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/834d2622-3dbe-4907-8791-52230531331a" />
-
+This image shows the installation of PHP manager and Rewrite.
 <h3>5. Installing PHP manager and rewrite</h3>
 
 - Go to the osticket installation folder and download PHP manager
@@ -107,18 +107,21 @@ This image shows the installing and enabling of IIS to host the osticker.
 - From the osticket folder Unzip the Php zip into C:\PHP
 
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/2b067f6b-64f3-40bc-852e-cf2fae547381" />
+This image shows the installation of VC_redist
 
 <h3>6. Installing VC_redist</h3>
 
 - From the osticket folder, download the VC_redist exe
 
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/47449723-083d-4b69-be2c-aac4759c65da" />
+This picture shows the installation of MySQL
 
 <h3>7. Installing MySQL</h3>
 - From the osticket folder, Install MySQL
   - Typical Setup
 
   <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/8b961faf-1fba-40f0-8b8d-afcce9a460ef" />
+This picture shows the Setup of MySQL
 
 - Lauch configuration Wizard (after install)
   - Standard Configuration
@@ -126,6 +129,7 @@ This image shows the installing and enabling of IIS to host the osticker.
   - For the username and password :root
 
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/689a9e38-6be7-4397-bcec-793bec9e973a" />
+This image shows the configuration of PHP on ISS.
 
 <h3>8. IIS configurating PHP</h3>
 
@@ -135,6 +139,7 @@ This image shows the installing and enabling of IIS to host the osticker.
   - Reload IIS by stoping and restarting the server (right click the local host top left)
 
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/4c36ea8a-46c6-4766-ba00-42ed957fa104" />
+This image shows the osticket being extracted and put into the correct location. Also the renaming of the file.
 
 <h2>9. Installing osTicket</h2>
 
@@ -143,12 +148,14 @@ This image shows the installing and enabling of IIS to host the osticker.
 - Restart IIS Again
 
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/4153d856-45ac-42f3-89fe-80800f4cbd7f" />
+This image shows us setting up osTicket in IIS
 
 - From IIS go to sites → Default → osTicket
   - Click "Browse *.80' on the right (notice some extensions are not enabled)
 - Go back to IIS, sites → Default → osTicket
 
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/fd025e7f-7b89-443a-89cd-841bdf8118f1" />
+This image shows us enabling the extensions for osTicket
 
   - Open PHP Manager
   - Click "Enable or disable and extension"
@@ -158,6 +165,7 @@ This image shows the installing and enabling of IIS to host the osticker.
 - Refresh the osTicket site in your browser, observe the changes
 
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/44b4e814-0604-4f19-997f-fcc6a1709323" />
+This image shows us changing the permissions for ost-config.
 
 - Rename: ost-sampleconfig.php → ost-config.php
   -From: C:\inetpub\wwwroot\osTicket\include\ost-sampleconfig.php 
@@ -171,17 +179,20 @@ This image shows the installing and enabling of IIS to host the osticker.
   - admin user info (email must be different from default system email)
 
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/657831e3-fd90-468d-966d-377897735489" />
+this image shows us intalling HeidiSQL.
 
 - From the osTicket Installation folder Install HeidiSQL
   - Open Heidi SQL
 
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/9d6f2ae3-48ae-4153-ab4f-7f40cfc9653b" />
+This image shows a creating a new database to host osTicket.
 
   - Create a new session, username and password "root"
   - Connect to the session
   - right click top left → Create new → Create a database called “osTicket”
 
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/2ee25788-6e58-4b43-a3e2-d9062ab5c09b" />
+This image shows us finishing up the osTicket set up.
 
 - Go back to the osTicket browser and continue setup
   - MySQL Database: osTicket
@@ -189,6 +200,7 @@ This image shows the installing and enabling of IIS to host the osticker.
   - Click install now
 
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/7c96cb3a-a498-4bb1-b750-c2b7ff62f278" />
+This image shows osTicket being successfully installed and running.
 
 <h1>CONGRAGULATIONS</h1>
 
