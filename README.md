@@ -69,6 +69,11 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <h2>3. Install osticket, IIS, and Dependecies</h2>
 
 - install this folder in the virtual machine using this link (https://drive.google.com/uc?export=download&id=1b3RBkXTLNGXbibeMuAynkfzdBC1NnqaD)  this is a folder containing all dependecies and osticket
+<p>
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/9aec9283-8cc1-43b3-8d47-981a857c739b" />
+</p>
+
+
 <h3>Installing IIS</h3>
 
 - Install/Enable IIS in windows with CGI
