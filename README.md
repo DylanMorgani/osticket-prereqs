@@ -183,6 +183,6 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 <h1>CONGRAGULATIONS</h1>
 <h2>I Hope you enjoyed my guide to intalling osTicket</h2>
-
+- On the bottom of the page you will see the url's for your osTicket!
 </p>
 <br />
