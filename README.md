@@ -66,9 +66,9 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-<h2>3. Install osticket and IIS</h2>
+<h2>3. Install osticket, IIS, and Dependecies</h2>
 
-- install osticket in the virtual machine using this link (https://drive.google.com/uc?export=download&id=1b3RBkXTLNGXbibeMuAynkfzdBC1NnqaD)
+- install this folder in the virtual machine using this link (https://drive.google.com/uc?export=download&id=1b3RBkXTLNGXbibeMuAynkfzdBC1NnqaD)  this is a folder containing all dependecies and osticket
 - Install/Enable IIS in windows with CGI
   - go to windows settings
   - go to programs
@@ -76,7 +76,24 @@ This tutorial outlines the prerequisites and installation of the open-source hel
   - turn on Internet Information Services (IIS)
   - expand IIS → expand World Wide Web Services → expand Application development features → enable CGI
   - click ok and wait for installation to complete
-- 
+- go to web browser and search for (127.0.0.1) to make sure its working
+- Go to the osticket folder and download PHP manager
+- In the same folder install the rewrite module
+- Create the directory C:\PHP
+- From the osticket folder Unzip the Php zip into C:\PHP
+- From the osticket folder, download the VC_redist exe
+- From the osticket folder, Install MySQL
+  - Typical Setup
+  - Lauch configuration Wizard (after install)
+  - Standard Configuration
+  - For the username and password :root
+- search for IIS in the windows search and run as admin
+  - from within IIS open PSP manager
+  - register new PHP version (browse to C:\PHP  and select the application)
+  - Reload IIS by stoping and restarting the server
+- From the Osticket installation folder, extract osticket
+  - copy the upload folder into "C:\inetpub\wwwroot" then rename the upload folder to "osTicket"
+- Restart IIS Again
 - 
 </p>
 <br />
