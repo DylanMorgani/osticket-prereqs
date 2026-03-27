@@ -119,6 +119,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 -PICTURE
 <h2>Downloading osTicket</h2>
+
 - From the Osticket installation folder, extract osticket
   - copy the upload folder into "C:\inetpub\wwwroot" then rename the upload folder to "osTicket"
 - Restart IIS Again
