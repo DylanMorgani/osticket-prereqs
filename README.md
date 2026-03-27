@@ -172,9 +172,10 @@ This tutorial outlines the prerequisites and installation of the open-source hel
   - Connect to the session
   - right click top left → Create new → Create a database called “osTicket”
 
--Picture
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/2ee25788-6e58-4b43-a3e2-d9062ab5c09b" />
+
 - Go back to the osTicket browser and continue setup
-  - MySQL Database: osTicket\
+  - MySQL Database: osTicket
   - MySQL username and password "root"
   - Click install now
 <h1>CONGRAGULATIONS</h1>
