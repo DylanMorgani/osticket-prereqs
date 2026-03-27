@@ -53,6 +53,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 </p>
 <p>
 <h2>2. Connect Using Windows Remote Desktop</h2>
+  
 - Look for the public Ip address for the virtual machine you created
 - Open Remote Desktop Connection on your computer
 - Enter the VM's Public IP address
